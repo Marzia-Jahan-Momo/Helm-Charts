@@ -30,16 +30,16 @@ cd helm-charts
 Navigate to the directory of the Helm chart you want to install. For example, to install RabbitMQ:
 
 ```bash
-cd rabbitmq
+cd RabbitMQ
 ```
 
 Run the following command to install the Helm chart:
 
 ```bash
-helm install rabbitmq .
+helm install RabbitMQ .
 ```
 
-You can replace `rabbitmq` with your desired release name.
+You can replace `RabbitMQ` with your desired release name.
 
 ### 3. Customize Values
 
@@ -50,13 +50,13 @@ Each Helm chart comes with a `values.yaml` file that you can customize according
 To upgrade an existing release:
 
 ```bash
-helm upgrade my-rabbitmq .
+helm upgrade RabbitMQ .
 ```
 
 To uninstall a release:
 
 ```bash
-helm uninstall my-rabbitmq
+helm uninstall RabbitMQ
 ```
 
 ### 5. Adding New Charts
