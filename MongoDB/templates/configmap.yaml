@@ -14,7 +14,7 @@ data:
     adminDb.auth(rootUser, rootPass);
     print('Successfully authenticated admin user');
 
-    const databases = ['mp3s', 'videos'];
+    const databases = ['audio', 'videos'];
 
     databases.forEach((targetDbStr) => {
       const targetDb = db.getSiblingDB(targetDbStr);
