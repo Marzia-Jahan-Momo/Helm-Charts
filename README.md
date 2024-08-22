@@ -6,9 +6,9 @@ Welcome to my Helm Charts repository! This repository contains Helm charts for v
 
 The repository is organized into different folders, each representing a Helm chart for a specific service or application:
 
-- **rabbitmq/**: Contains the Helm chart for deploying RabbitMQ.
-- **mongodb/**: Contains the Helm chart for deploying MongoDB.
-- **postgresql/**: Contains the Helm chart for deploying PostgreSQL.
+- **RabbitMQ/**: Contains the Helm chart for deploying RabbitMQ.
+- **MongoDB/**: Contains the Helm chart for deploying MongoDB.
+- **Postgres/**: Contains the Helm chart for deploying PostgreSQL.
 
 More Helm charts will be added to this repository in the future.
 
